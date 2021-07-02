@@ -678,7 +678,7 @@
 .box-slider .block-slider-main .fa-chevron-left {
   position: absolute;
   left: 0;
-  left-top: 0;
+  top: 0;
   bottom: 42%;
 }
 
