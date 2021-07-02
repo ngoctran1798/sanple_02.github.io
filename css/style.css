@@ -667,7 +667,6 @@
   position: absolute;
   right: 0;
   top: 50%;
-  bottom: 0;
 }
 
 .box-slider .block-slider-main .fa-chevron-right:before {
@@ -678,7 +677,6 @@
 .box-slider .block-slider-main .fa-chevron-left {
   position: absolute;
   left: 0;
-  top: 0;
   bottom: 42%;
 }
 
@@ -789,10 +787,16 @@
   transition: all 0.5s ease;
   overflow: hidden;
   padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .box-team .block-slider-team .block-slide .block-images img {
-  width: 235px;
+  width: 248px;
   height: 285px;
   border-radius: 10px;
   -webkit-transition: all 0.5s ease;
