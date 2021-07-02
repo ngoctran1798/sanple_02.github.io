@@ -1,0 +1,43 @@
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .box-header .block-menu-button h3 {
+    margin-right: 110px;
+  }
+  .box-header .block-menu-button .block-menu {
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .box-header .block-logo {
+    padding-top: 30px;
+  }
+  .box-header .block-menu-button h3 {
+    margin-right: 120px;
+    margin-top: 30px;
+  }
+  .box-header .block-menu-button .block-menu {
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .box-header .block-logo {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .box-header .block-menu-button h3 {
+    margin-right: 60px;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .box-header .block-menu-button .block-menu {
+    margin-right: 20px;
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,123 @@
+// Header
+.box-header
+  position: absolute
+  z-index: 1
+  width: 100%
+  top: 0
+  left: 0
+  display: flex
+  min-height: 5rem
+  flex-direction: row
+  text-align: left
+  background-size: cover
+
+  .block-logo
+    color: #fff
+    font-size: 30px
+    font-family: 'Open Sans', sans-serif
+    font-weight: 300
+    margin: 0
+    padding-top: 50px
+    span
+      color: #f7600e
+      font-weight: 400
+
+  .block-menu-button h3
+    background-color: transparent
+    border: none
+    cursor: pointer
+    padding: 0
+    position: fixed
+    z-index: 9
+    right: 0
+    top: 0
+    margin-right: 260px
+    margin-top: 65px
+    font-size: 30px
+    font-weight: 400
+    font-family: 'Open Sans', sans-serif
+    color: #fff
+
+  .block-menu-button
+    h3
+      background-color: transparent
+      border: none
+      cursor: pointer
+      padding: 0
+      position: fixed
+      z-index: 9
+      right: 0
+      top: 0
+      margin-right: 260px
+      margin-top: 65px
+      font-size: 30px
+      font-weight: 400
+      font-family: 'Open Sans', sans-serif
+      color: #fff
+    .block-menu
+      background-color: transparent
+      border: none
+      cursor: pointer
+      padding: 0
+      position: fixed
+      z-index: 9
+      right: 0
+      top: 0
+      margin-right: 200px
+      margin-top: 65px
+      width: 40px
+      height: 40px
+
+      .menu-global
+        backface-visibility: hidden
+        position: absolute
+        left: 0
+        border-top: 4px solid #fff
+        width: 100%
+        transition: all 0.5s ease
+      .menu-top
+        top: 0
+      .menu-middle
+        top: 18px
+      .menu-bottom
+        top: 36px
+      .menu-top-click
+        backface-visibility: hidden
+        top: 15px
+        transform: rotate(50deg)
+        transition: all 0.5s ease
+      .menu-middle-click
+        opacity: 0
+      .menu-bottom-click
+        backface-visibility: hidden
+        top: 15px
+        transform: rotate(-410deg)
+        transition: all 0.5s ease
+  .block-menu-navigation
+    position: fixed
+    width: 100%
+    height: 100%
+    background-image: radial-gradient(#f7920e, #f7600e)
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1)
+    z-index: 3
+    bottom: 100%
+    align-items: center
+    display: flex
+    justify-content: center
+    transition: all 0.5s ease
+    &.active
+      bottom: 0
+    .block-content
+      ul
+        list-style: none
+        padding-left: 0px
+        margin-bottom: 0px
+        li a
+          display: block
+          position: relative
+          padding: 12.85px 20px
+          font-size: 40px
+          font-weight: 400
+          font-family: 'Open Sans', sans-serif
+          color: #fff
+          transition: all 0.5s ease

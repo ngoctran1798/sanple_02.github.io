@@ -1,0 +1,27 @@
+$res_992: "only screen and (min-width: 992px) and (max-width: 1024px)"
+$res_320: "only screen and (min-width: 320px) and (max-width: 767px)"
+
+@mixin responsive_992()
+  @media #{$res_992}
+    @content
+
+
+@mixin responsive_320()
+  @media #{$res_320}
+    @content
+
+@include responsive_992
+  .box-footer
+    .block-title
+      font-size: 14px
+      padding: 25px 0
+
+@include responsive_320
+  .box-footer
+    .block-title
+      font-size: 14px
+      padding: 20px 0
+    .left
+      text-align: center
+    .right
+      text-align: center

@@ -1,0 +1,174 @@
+.box-header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 5rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: left;
+  background-size: cover;
+}
+
+.box-header .block-logo {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.box-header .block-logo span {
+  color: #f7600e;
+  font-weight: 400;
+}
+
+.box-header .block-menu-button h3 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: fixed;
+  z-index: 9;
+  right: 0;
+  top: 0;
+  margin-right: 260px;
+  margin-top: 65px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.box-header .block-menu-button h3 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: fixed;
+  z-index: 9;
+  right: 0;
+  top: 0;
+  margin-right: 260px;
+  margin-top: 65px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.box-header .block-menu-button .block-menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: fixed;
+  z-index: 9;
+  right: 0;
+  top: 0;
+  margin-right: 200px;
+  margin-top: 65px;
+  width: 40px;
+  height: 40px;
+}
+
+.box-header .block-menu-button .block-menu .menu-global {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 4px solid #fff;
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.box-header .block-menu-button .block-menu .menu-top {
+  top: 0;
+}
+
+.box-header .block-menu-button .block-menu .menu-middle {
+  top: 18px;
+}
+
+.box-header .block-menu-button .block-menu .menu-bottom {
+  top: 36px;
+}
+
+.box-header .block-menu-button .block-menu .menu-top-click {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  top: 15px;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.box-header .block-menu-button .block-menu .menu-middle-click {
+  opacity: 0;
+}
+
+.box-header .block-menu-button .block-menu .menu-bottom-click {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  top: 15px;
+  -webkit-transform: rotate(-410deg);
+          transform: rotate(-410deg);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.box-header .block-menu-navigation {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#f7920e, #f7600e);
+  -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+  z-index: 3;
+  bottom: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.box-header .block-menu-navigation.active {
+  bottom: 0;
+}
+
+.box-header .block-menu-navigation .block-content ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.box-header .block-menu-navigation .block-content ul li a {
+  display: block;
+  position: relative;
+  padding: 12.85px 20px;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/*# sourceMappingURL=pc.css.map */

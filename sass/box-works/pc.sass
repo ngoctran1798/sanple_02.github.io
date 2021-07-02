@@ -1,0 +1,98 @@
+.box-works
+  padding: 100px 0
+  .block-title
+    padding-bottom: 100px
+    text-align: center
+    h2
+      font-size: 35px
+      letter-spacing: 5px
+      color: #3b434c
+      font-family: 'Open Sans', sans-serif
+      font-weight: 600
+      margin-bottom: 0
+      padding-bottom: 30px
+      span
+        color: #f7600e
+    p
+      font-family: 'Open Sans', sans-serif
+      font-size: 16px
+      font-weight: 400
+      margin-bottom: 0
+      letter-spacing: 1px
+      color: #3b434c
+  .block-work
+    padding-bottom: 30px
+    padding-left: 15px
+    .work-item
+      position: relative
+      .work-img
+        a
+          img
+            width: 100%
+      .work-content
+        opacity: 0
+        position: absolute
+        top: 0
+        background: #ec6014
+        padding: 80px 0
+        border-radius: 10px
+        transform: translateY(40px)
+        transition: all 0.5s ease
+        h3
+          font-size: 25px
+          font-family: 'Open Sans', sans-serif
+          font-weight: 600
+          color: #fff
+          margin-bottom: 0
+          padding-bottom: 25px
+          text-align: center
+        p
+          overflow: hidden
+          text-overflow: ellipsis
+          line-height: 16px
+          -webkit-line-clamp: 2
+          display: -webkit-box
+          -webkit-box-orient: vertical
+          color: #fff
+          text-align: center
+          padding: 0 50px
+          letter-spacing: 1px
+          font-family: 'Open Sans', sans-serif
+          font-weight: 400
+          font-size: 14px
+          margin-bottom: 0
+        .block-show
+          text-align: center
+          margin-top: 40px
+          .btn-show
+            padding: 20px 45px
+            font-size: 16px
+            font-weight: 600
+            border-radius: 10px
+            transition: all 0.5s ease
+            background: #f7600e
+            color: #fff
+            border: 1px solid #fff
+            &::hover
+              color: #f7600e
+              background: #fff
+              border: 1px solid #fff
+      &:hover>.work-content
+        opacity: 0.9
+        transform: translateY(0px)
+  .block-more
+    text-align: center
+    margin-top: 50px
+    .btn-more
+      font-size: 16px
+      padding: 20px 50px
+      font-family: 'Open Sans', sans-serif
+      font-weight: 600
+      color: #3b434c
+      border: 1px solid #3b434c
+      border-radius: 10px
+      transition: all 0.5s ease
+      &:hover
+        color: #fff
+        background: #f7600e
+        border: 1px solid #fff 
