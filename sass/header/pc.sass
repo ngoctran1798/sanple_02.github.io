@@ -10,19 +10,10 @@
   flex-direction: row
   text-align: left
   background-size: cover
-
   .block-logo
-    color: #fff
-    font-size: 30px
-    font-family: 'Open Sans', sans-serif
-    font-weight: 300
     margin: 0
     padding-top: 50px
-    span
-      color: #f7600e
-      font-weight: 400
-
-  .block-menu-button h3
+  .block-menu-button 
     background-color: transparent
     border: none
     cursor: pointer
@@ -37,9 +28,8 @@
     font-weight: 400
     font-family: 'Open Sans', sans-serif
     color: #fff
-
   .block-menu-button
-    h3
+    .menu
       background-color: transparent
       border: none
       cursor: pointer
@@ -67,7 +57,6 @@
       margin-top: 65px
       width: 40px
       height: 40px
-
       .menu-global
         backface-visibility: hidden
         position: absolute
@@ -108,16 +97,18 @@
     &.active
       bottom: 0
     .block-content
-      ul
+      .content-menu
         list-style: none
         padding-left: 0px
         margin-bottom: 0px
-        li a
-          display: block
-          position: relative
-          padding: 12.85px 20px
-          font-size: 40px
-          font-weight: 400
-          font-family: 'Open Sans', sans-serif
-          color: #fff
-          transition: all 0.5s ease
+        .list-menu 
+          .link
+            display: block
+            position: relative
+            padding: 12.85px 20px
+            font-size: 40px
+            font-weight: 400
+            font-family: 'Open Sans', sans-serif
+            color: #fff
+            transition: all 0.5s ease
+            text-decoration: none

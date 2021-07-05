@@ -1,0 +1,88 @@
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .box-header .block-menu-button .menu {
+    margin-right: 110px;
+  }
+  .box-header .block-menu-button .block-menu {
+    margin-right: 50px;
+  }
+  .section-content .content-title .title {
+    font-size: 70px;
+  }
+  .section-content .content-title .text {
+    font-size: 24px;
+  }
+  .section-content .content-title .content-scroll {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .box-header .block-logo {
+    padding-top: 30px;
+  }
+  .box-header .block-menu-button .menu {
+    margin-right: 120px;
+    margin-top: 30px;
+  }
+  .box-header .block-menu-button .block-menu {
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  .section-content .content-title {
+    padding: 50px 50px 0;
+    padding-top: 80px;
+  }
+  .section-content .content-title .title {
+    font-size: 50px;
+  }
+  .section-content .content-title .text {
+    font-size: 22px;
+  }
+  .section-content .content-title .content-scroll {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .box-header .block-logo {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .box-header .block-menu-button .menu {
+    margin-right: 60px;
+    margin-top: 23px;
+    font-size: 22px;
+  }
+  .box-header .block-menu-button .block-menu {
+    margin-right: 20px;
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+  }
+  .section-content .content-title {
+    padding: 50px 40px 0;
+    padding-top: 80px;
+  }
+  .section-content .content-title .title {
+    font-size: 40px;
+  }
+  .section-content .content-title .text {
+    font-size: 16px;
+  }
+  .section-content .content-title .content-scroll {
+    margin-top: 60px;
+  }
+  .section-banner .banner-form .text-input {
+    width: 170px;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .section-banner .banner-form .block-orange {
+    padding: 7px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

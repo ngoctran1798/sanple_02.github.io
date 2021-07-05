@@ -31,10 +31,10 @@ var Menu = {
 
 Menu.init();
 $(document).ready(function() {
-    $('.block-menu').click(function(e) {
+    $('.block-menu-button').click(function(e) {
         e.preventDefault();
         $('.block-menu-navigation').toggleClass('active');
-        $(this).closest('.box-header').find('.block-menu').toggleClass("active");
+        $(this).closest('.box-header').find('.block-menu-button').toggleClass("active");
     })
 });
 

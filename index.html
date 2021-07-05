@@ -1,50 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple Test 02</title>
+    <title>Sample Test 02</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/style.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
   </head>
 
   <body>
     <header>
       <div class="box-header">
         <div class="container">
-          <h1 class="block-logo">Tanatos<span>Studio</span></h1>
+          <h1 class="block-logo"><img src="./images/logo.png" alt="logo"></h1>
           <div class="block-menu-button">
-            <h3>Menu</h3>
+            <h2 class="menu">Menu</h2>
             <div class="block-menu">
               <span class="menu-global menu-top"></span>
               <span class="menu-global menu-middle"></span>
@@ -54,13 +31,13 @@
         </div>
         <div class="block-menu-navigation">
           <div class="block-content">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Information</a></li>
-              <li><a href="#">Product</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">New</a></li>
-              <li><a href="#">Contact</a></li>
+            <ul class="content-menu">
+              <li class="list-menu"><a href="#" class="link">Home</a></li>
+              <li class="list-menu"><a href="#" class="link">Information</a></li>
+              <li class="list-menu"><a href="#" class="link">Product</a></li>
+              <li class="list-menu"><a href="#" class="link">Portfolio</a></li>
+              <li class="list-menu"><a href="#" class="link">New</a></li>
+              <li class="list-menu"><a href="#" class="link">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -68,865 +45,182 @@
     </header>
 
     <main>
-      <section>
-        <div class="box-content">
-          <div class="container">
-            <div class="block-header-content">
-              <h2>WE DESIGN <span>THINGS</span></h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br />
-                sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua
-              </p>
-              <div class="block-readmore">
-                <a href="#" class="btn btn-orange">Hire us</a>
-                <a href="#" class="btn btn-work">Our Works</a>
-              </div>
-              <a class="block-scroll-down" href="#service"
-                ><span class="fas fa-chevron-down"></span
-                ><span class="sr-only">Scroll to about us section</span></a
-              >
+      <section class="section-content">
+        <div class="container">
+          <div class="content-title">
+            <h2 class="title">WE DESIGN <span>THINGS</span></h2>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br />sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <div class="block-readmore">
+              <a href="#" class="block-orange">Hire us</a>
+              <a href="#" class="block-work">Our Works</a>
             </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div id="service" class="box-service">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-3 block-service">
-                <div class="service-item">
-                  <div class="block-img">
-                    <a href="#"
-                      ><img
-                        src="./images/service_1.png"
-                        alt="service 1"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="block-content">
-                    <h3><a href="#">PRINT DESIGN</a></h3>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum. Sed
-                      ut perspiciatis unde omnis iste natus error sit voluptatem
-                      accusantium doloremque laudantium, totam rem aperiam,
-                      eaque ipsa quae ab illo inventore veritatis et quasi
-                      architecto beatae vitae dicta sunt explicabo. Nemo enim
-                      ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                      fugit, sed quia consequuntur magni dolores eos qui ratione
-                      voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                      velit, sed quia non numquam eius modi tempora incidunt ut
-                      labore et dolore magnam aliquam quaerat voluptatem.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-6 col-lg-3 block-service">
-                <div class="service-item">
-                  <div class="block-img">
-                    <a href="#"
-                      ><img
-                        src="./images/service_2.png"
-                        alt="service 2"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="block-content">
-                    <h3><a href="#">WEB DESIGN</a></h3>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum. Sed
-                      ut perspiciatis unde omnis iste natus error sit voluptatem
-                      accusantium doloremque laudantium, totam rem aperiam,
-                      eaque ipsa quae ab illo inventore veritatis et quasi
-                      architecto beatae vitae dicta sunt explicabo. Nemo enim
-                      ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                      fugit, sed quia consequuntur magni dolores eos qui ratione
-                      voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                      velit, sed quia non numquam eius modi tempora incidunt ut
-                      labore et dolore magnam aliquam quaerat voluptatem.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-6 col-lg-3 block-service">
-                <div class="service-item">
-                  <div class="block-img">
-                    <a href="#"
-                      ><img
-                        src="./images/service_3.png"
-                        alt="service 3"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="block-content">
-                    <h3><a href="#">APP DESIGN</a></h3>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum. Sed
-                      ut perspiciatis unde omnis iste natus error sit voluptatem
-                      accusantium doloremque laudantium, totam rem aperiam,
-                      eaque ipsa quae ab illo inventore veritatis et quasi
-                      architecto beatae vitae dicta sunt explicabo. Nemo enim
-                      ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                      fugit, sed quia consequuntur magni dolores eos qui ratione
-                      voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                      velit, sed quia non numquam eius modi tempora incidunt ut
-                      labore et dolore magnam aliquam quaerat voluptatem.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-6 col-lg-3 block-service">
-                <div class="service-item">
-                  <div class="block-img">
-                    <a href="#"
-                      ><img
-                        src="./images/service_4.png"
-                        alt="service 4"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="block-content">
-                    <h3><a href="#">LOGO DESIGN</a></h3>
-                    <p>
-                      Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum. Sed
-                      ut perspiciatis unde omnis iste natus error sit voluptatem
-                      accusantium doloremque laudantium, totam rem aperiam,
-                      eaque ipsa quae ab illo inventore veritatis et quasi
-                      architecto beatae vitae dicta sunt explicabo. Nemo enim
-                      ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                      fugit, sed quia consequuntur magni dolores eos qui ratione
-                      voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                      dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                      velit, sed quia non numquam eius modi tempora incidunt ut
-                      labore et dolore magnam aliquam quaerat voluptatem.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <a class="content-scroll" href="#service"><span class="fas fa-chevron-down"></span></a>
           </div>
         </div>
       </section>
 
-      <section>
-        <div class="box-banner">
-          <div class="container">
-            <div class="search-form">
-              <form class="form-inline">
-                <div class="form-group mx-sm-1 mb-2">
-                  <label for="inputPassword2" class="sr-only">Password</label>
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="inputPassword2"
-                    placeholder="Enter your email for newsletter:"
-                  />
-                </div>
-                <button type="submit" class="btn btn-success mb-2">
-                  SUBSCRIBE
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="box-works">
-          <div class="container">
-            <div class="block-title">
-              <h2>OUR <span> WORKS</span></h2>
-              <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                <br />
-                nisi ut aliquip ex ea commodo consequat
-              </p>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
-                <div class="work-item">
-                  <div class="work-img">
-                    <a href="#"
-                      ><img
-                        src="./images/product_1.png"
-                        alt="product"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="work-content">
-                    <h3>ABAZOO WEBSITE</h3>
-                    <p>
-                      Quis nostrud exercitation ullamco laboris nisi ut aliquip
-                      ex ea commodo consequat. Duis aute irure dolor in
-                      reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                      non proident, sunt in culpa qui officia deserunt mollit
-                      anim id est laborum. Sed ut perspiciatis unde omnis iste
-                      natus error sit voluptatem accusantium doloremque
-                      laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                      inventore veritatis et quasi architecto beatae vitae dicta
-                      sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                      sit aspernatur aut odit aut fugit, sed quia consequuntur
-                      magni dolores eos qui ratione voluptatem sequi nesciunt.
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non numquam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem.
-                    </p>
-                    <div class="block-show">
-                      <a href="#" class="btn btn-show">SHOW PROJECT</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
-                <div class="work-item">
-                  <div class="work-img">
-                    <a href="#"
-                      ><img
-                        src="./images/product_2.png"
-                        alt="product"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="work-content">
-                    <h3>ABAZOO WEBSITE</h3>
-                    <p>
-                      Quis nostrud exercitation ullamco laboris nisi ut aliquip
-                      ex ea commodo consequat. Duis aute irure dolor in
-                      reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                      non proident, sunt in culpa qui officia deserunt mollit
-                      anim id est laborum. Sed ut perspiciatis unde omnis iste
-                      natus error sit voluptatem accusantium doloremque
-                      laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                      inventore veritatis et quasi architecto beatae vitae dicta
-                      sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                      sit aspernatur aut odit aut fugit, sed quia consequuntur
-                      magni dolores eos qui ratione voluptatem sequi nesciunt.
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non numquam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem.
-                    </p>
-                    <div class="block-show">
-                      <a href="#" class="btn btn-show">SHOW PROJECT</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
-                <div class="work-item">
-                  <div class="work-img">
-                    <a href="#"
-                      ><img
-                        src="./images/product_3.png"
-                        alt="product"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="work-content">
-                    <h3>ABAZOO WEBSITE</h3>
-                    <p>
-                      Quis nostrud exercitation ullamco laboris nisi ut aliquip
-                      ex ea commodo consequat. Duis aute irure dolor in
-                      reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                      non proident, sunt in culpa qui officia deserunt mollit
-                      anim id est laborum. Sed ut perspiciatis unde omnis iste
-                      natus error sit voluptatem accusantium doloremque
-                      laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                      inventore veritatis et quasi architecto beatae vitae dicta
-                      sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                      sit aspernatur aut odit aut fugit, sed quia consequuntur
-                      magni dolores eos qui ratione voluptatem sequi nesciunt.
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non numquam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem.
-                    </p>
-                    <div class="block-show">
-                      <a href="#" class="btn btn-show">SHOW PROJECT</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
-                <div class="work-item">
-                  <div class="work-img">
-                    <a href="#"
-                      ><img
-                        src="./images/product_4.png"
-                        alt="product"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="work-content">
-                    <h3>ABAZOO WEBSITE</h3>
-                    <p>
-                      Quis nostrud exercitation ullamco laboris nisi ut aliquip
-                      ex ea commodo consequat. Duis aute irure dolor in
-                      reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                      non proident, sunt in culpa qui officia deserunt mollit
-                      anim id est laborum. Sed ut perspiciatis unde omnis iste
-                      natus error sit voluptatem accusantium doloremque
-                      laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                      inventore veritatis et quasi architecto beatae vitae dicta
-                      sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                      sit aspernatur aut odit aut fugit, sed quia consequuntur
-                      magni dolores eos qui ratione voluptatem sequi nesciunt.
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non numquam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem.
-                    </p>
-                    <div class="block-show">
-                      <a href="#" class="btn btn-show">SHOW PROJECT</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
-                <div class="work-item">
-                  <div class="work-img">
-                    <a href="#"
-                      ><img
-                        src="./images/product_5.png"
-                        alt="product"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="work-content">
-                    <h3>ABAZOO WEBSITE</h3>
-                    <p>
-                      Quis nostrud exercitation ullamco laboris nisi ut aliquip
-                      ex ea commodo consequat. Duis aute irure dolor in
-                      reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                      non proident, sunt in culpa qui officia deserunt mollit
-                      anim id est laborum. Sed ut perspiciatis unde omnis iste
-                      natus error sit voluptatem accusantium doloremque
-                      laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                      inventore veritatis et quasi architecto beatae vitae dicta
-                      sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                      sit aspernatur aut odit aut fugit, sed quia consequuntur
-                      magni dolores eos qui ratione voluptatem sequi nesciunt.
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non numquam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem.
-                    </p>
-                    <div class="block-show">
-                      <a href="#" class="btn btn-show">SHOW PROJECT</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
-                <div class="work-item">
-                  <div class="work-img">
-                    <a href="#"
-                      ><img
-                        src="./images/product_6.png"
-                        alt="product"
-                        class="img-fluid"
-                    /></a>
-                  </div>
-                  <div class="work-content">
-                    <h3>ABAZOO WEBSITE</h3>
-                    <p>
-                      Quis nostrud exercitation ullamco laboris nisi ut aliquip
-                      ex ea commodo consequat. Duis aute irure dolor in
-                      reprehenderit in voluptate velit esse cillum dolore eu
-                      fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                      non proident, sunt in culpa qui officia deserunt mollit
-                      anim id est laborum. Sed ut perspiciatis unde omnis iste
-                      natus error sit voluptatem accusantium doloremque
-                      laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                      inventore veritatis et quasi architecto beatae vitae dicta
-                      sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                      sit aspernatur aut odit aut fugit, sed quia consequuntur
-                      magni dolores eos qui ratione voluptatem sequi nesciunt.
-                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit, sed quia non numquam
-                      eius modi tempora incidunt ut labore et dolore magnam
-                      aliquam quaerat voluptatem.
-                    </p>
-                    <div class="block-show">
-                      <a href="#" class="btn btn-show">SHOW PROJECT</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="block-more">
-              <a href="#" class="btn btn-more">SHOW MORE</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="box-slider">
-          <div class="container">
-            <div class="block-slider-main">
-              <div class="block-slide">
-                <div class="block-images">
-                  <a href="#">
-                    <img
-                      class="img-fluid"
-                      src="./images/employee.png"
-                      alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-overlay-content">
-                  <h3>
-                    These guys are incredible! I get my project in 10 days and
-                    it was awesome! <br />Very good service! Highly recommended!
-                  </h3>
-                  <p>John Smith</p>
-                </div>
-              </div>
-
-              <div class="block-slide">
-                <div class="block-images">
-                  <a href="#">
-                    <img
-                      class="img-fluid"
-                      src="./images/employee.png"
-                      alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-overlay-content">
-                  <h3>
-                    These guys are incredible! I get my project in 10 days and
-                    it was awesome! <br />Very good service! Highly recommended!
-                  </h3>
-                  <p>John Smith</p>
-                </div>
-              </div>
-
-              <div class="block-slide">
-                <div class="block-images">
-                  <a href="#">
-                    <img
-                      class="img-fluid"
-                      src="./images/employee.png"
-                      alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-overlay-content">
-                  <h3>
-                    These guys are incredible! I get my project in 10 days and
-                    it was awesome! <br />Very good service! Highly recommended!
-                  </h3>
-                  <p>John Smith</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="box-team">
-          <div class="container">
-            <div class="block-title">
-              <h2>OUR <span> TEAM</span></h2>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit <br />
-                voluptatem accusantium doloremque laudantium totam rem
-              </p>
-            </div>
-            <div class="block-slider-team">
-              <div class="block-slide active">
-                <div class="block-images">
-                  <a href="#">
-                    <img
-                      class="img-fluid"
-                      src="./images/employee_1.png"
-                      alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-content">
-                  <h3>CATHERINA GAIL</h3>
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/fb.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/tw.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/g+.png" alt="g+" class="img-fluid"
-                      /></a>
-                    </li>
-                  </ul>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur dolore doloremque
-                    inventore nemo enim.
-                  </p>
-                </div>
-              </div>
-
-              <div class="block-slide">
-                <div class="block-images">
-                  <a href="#">
-                    <img
-                      class="img-fluid"
-                      src="./images/employee_2.png"
-                      alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-content">
-                  <h3>HARVEY RUBE</h3>
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/fb.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/tw.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/g+.png" alt="g+" class="img-fluid"
-                      /></a>
-                    </li>
-                  </ul>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur dolore doloremque
-                    inventore nemo enim.
-                  </p>
-                </div>
-              </div>
-
-              <div class="block-slide">
-                <div class="block-images">
-                  <a href="#">
-                    <img src="./images/employee_3.png" alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-content">
-                  <h3>JANET PRIS</h3>
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/fb.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/tw.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/g+.png" alt="g+" class="img-fluid"
-                      /></a>
-                    </li>
-                  </ul>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur dolore doloremque
-                    inventore nemo enim.
-                  </p>
-                </div>
-              </div>
-
-              <div class="block-slide">
-                <div class="block-images">
-                  <a href="#">
-                    <img src="./images/employee_4.png" alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-content">
-                  <h3>KEVIN WARD</h3>
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/fb.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/tw.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/g+.png" alt="g+" class="img-fluid"
-                      /></a>
-                    </li>
-                  </ul>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur dolore doloremque
-                    inventore nemo enim.
-                  </p>
-                </div>
-              </div>
-
-              <div class="block-slide">
-                <div class="block-images">
-                  <a href="#">
-                    <img src="./images/employee_1.png" alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-content">
-                  <h3>CATHERINA GAIL</h3>
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/fb.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/tw.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/g+.png" alt="g+" class="img-fluid"
-                      /></a>
-                    </li>
-                  </ul>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur dolore doloremque
-                    inventore nemo enim.
-                  </p>
-                </div>
-              </div>
-
-              <div class="block-slide">
-                <div class="block-images">
-                  <a href="#">
-                    <img
-                      class="img-fluid"
-                      src="./images/employee_1.png"
-                      alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-content">
-                  <h3>HARVEY RUBE</h3>
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/fb.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/tw.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/g+.png" alt="g+" class="img-fluid"
-                      /></a>
-                    </li>
-                  </ul>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur dolore doloremque
-                    inventore nemo enim.
-                  </p>
-                </div>
-              </div>
-
-              <div class="block-slide">
-                <div class="block-images">
-                  <a href="#">
-                    <img
-                      class="img-fluid"
-                      src="./images/employee_1.png"
-                      alt="First slide"
-                  /></a>
-                </div>
-                <div class="block-content">
-                  <h3>JANET PRIS</h3>
-                  <ul>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/fb.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/tw.png" alt="fb" class="img-fluid"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img src="./images/g+.png" alt="g+" class="img-fluid"
-                      /></a>
-                    </li>
-                  </ul>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur dolore doloremque
-                    inventore nemo enim.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="box-search">
-          <div class="container">
-            <div class="block-title">
-              <h2>SAY <span> HELLO</span></h2>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit <br />
-                voluptatem accusantium doloremque laudantium totam rem
-              </p>
-            </div>
-            <div class="block-search">
-              <form action="#">
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-6 mr-23">
-                    <input
-                      type="text"
-                      class="input-md form-control"
-                      name="fullname"
-                      placeholder="Your Email"
-                    />
-                  </div>
-                  <div class="col-sm-12 col-md-12 col-lg-6 mr-23">
-                    <input
-                      type="email"
-                      class="input-md form-control"
-                      name="email"
-                      placeholder="Subject"
-                    />
-                  </div>
-                </div>
-                <div class="mr-23">
-                  <textarea
-                    name="content"
-                    class="input-md form-control"
-                    rows="6"
-                    placeholder="Your mess"
-                    maxlength="1000"
-                  ></textarea>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12 col-md-6">
-                    <div class="block-readmore">
-                      <a href="#" class="btn btn-orange">Hire us</a>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-6">
-                    <div class="block-icon">
-                      <ul>
-                        <li>
-                          <a href="#"
-                            ><img
-                              src="./images/icon_1.png"
-                              alt="icon"
-                              class="img-fluid"
-                          /></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><img
-                              src="./images/icon_2.png"
-                              alt="icon"
-                              class="img-fluid"
-                          /></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><img
-                              src="./images/icon_3.png"
-                              alt="icon"
-                              class="img-fluid"
-                          /></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><img
-                              src="./images/icon_4.png"
-                              alt="icon"
-                              class="img-fluid"
-                          /></a>
-                        </li>
-                        <li>
-                          <a href="#"
-                            ><img
-                              src="./images/icon_5.png"
-                              alt="icon"
-                              class="img-fluid"
-                          /></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="box-footer">
+      <section id="service" class="section-service">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <div class="block-title left">© 2015 COPYRIGHT DESIGN STUDIO</div>
+            <div class="col-sm-12 col-md-6 col-lg-3 block-service">
+              <div class="service-item">
+                <div class="service-img">
+                  <a href="#" class="link"><img src="./images/service_1.png" alt="service 1" class="img-fluid image"/></a>
+                </div>
+                <div class="service-content">
+                  <h3 class="title" ><a href="#" class="link">PRINT DESIGN</a></h3>
+                  <p class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <div class="block-title right">
-                DESIGNED BY SYMU <span>.</span>CO
+
+            <div class="col-sm-12 col-md-6 col-lg-3 block-service">
+              <div class="service-item">
+                <div class="service-img"> <a href="#" class="link"><img src="./images/service_2.png" alt="service 2" class="img-fluid"/></a>
+                </div>
+                <div class="service-content">
+                  <h3 class="title"><a href="#" class="link">WEB DESIGN</a></h3>
+                  <p class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 block-service">
+              <div class="service-item">
+                <div class="service-img"> <a href="#" class="link"><img src="./images/service_3.png" alt="service 3" class="img-fluid"/></a>
+                </div>
+                <div class="service-content">
+                  <h3 class="title"><a href="#" class="link">APP DESIGN</a></h3>
+                  <p class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 block-service">
+              <div class="service-item">
+                <div class="service-img"> <a href="#"><img src="./images/service_4.png" alt="service 4" class="img-fluid"/></a>
+                </div>
+                <div class="service-content">
+                  <h3 class="title"><a href="#" class="link">LOGO DESIGN</a></h3>
+                  <p class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sedut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
+      <section class="section-banner">
+        <div class="container">
+          <h2 class="sr-only"> Enter your email address for newsletter subscription
+          </h2>
+          <form action="#" class="banner-form flex-center">
+            <label class="label banner-form-label" for="banner-form-input"></label>
+            <input id="banner-form-input" name="email" class="text-input banner-form-input" type="email" placeholder="Enter your email for newsletter:" required=""/>
+            <button type="submit" class="block-orange">SUBSCRIBE</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section-works">
+          <div class="container">
+            <div class="works-title">
+              <h2 class="title">OUR <span> WORKS</span></h2>
+              <p class="text">Ut enim ad minim veniam, quis nostrud exercitation ullamco<br/>nisi ut aliquip ex ea commodo consequat</p>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
+                <div class="works-item">
+                  <div class="work-img"> <a href="#" class="link"><img src="./images/product_1.png" alt="product" class="img-fluid image"/></a>
+                  </div>
+                  <div class="work-content">
+                    <h3 class="content-title">ABAZOO WEBSITE</h3>
+                    <p class="content-text"> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                    <div class="block-show"> <a href="#" class="button-show">SHOW PROJECT</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
+                <div class="works-item">
+                  <div class="work-img"> <a href="#"><img src="./images/product_2.png" alt="product" class="img-fluid"/></a>
+                  </div>
+                  <div class="work-content">
+                    <h3 class="content-title">ABAZOO WEBSITE</h3>
+                    <p class="content-text"> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                    <div class="block-show"> <a href="#" class="button-show">SHOW PROJECT</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
+                <div class="works-item">
+                  <div class="work-img"> <a href="#"><img src="./images/product_3.png" alt="product" class="img-fluid"/></a>
+                  </div>
+                  <div class="work-content">
+                    <h3 class="content-title">ABAZOO WEBSITE</h3>
+                    <p class="content-text"> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                    <div class="block-show"> <a href="#" class="button-show">SHOW PROJECT</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
+                <div class="works-item">
+                  <div class="work-img"> <a href="#"><img src="./images/product_4.png" alt="product" class="img-fluid"/></a>
+                  </div>
+                  <div class="work-content">
+                    <h3 class="content-title">ABAZOO WEBSITE</h3>
+                    <p class="content-text"> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                    <div class="block-show"> <a href="#" class="button-show">SHOW PROJECT</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
+                <div class="works-item">
+                  <div class="work-img"> <a href="#"><img src="./images/product_5.png" alt="product" class="img-fluid"/></a>
+                  </div>
+                  <div class="work-content">
+                    <h3 class="content-title">ABAZOO WEBSITE</h3>
+                    <p class="content-text"> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                    <div class="block-show"> <a href="#" class="button-show">SHOW PROJECT</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-4 block-work">
+                <div class="works-item">
+                  <div class="work-img"> <a href="#"><img src="./images/product_6.png" alt="product" class="img-fluid"/></a>
+                  </div>
+                  <div class="work-content">
+                    <h3 class="content-title">ABAZOO WEBSITE</h3>
+                    <p class="content-text"> Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                    <div class="block-show"> <a href="#" class="button-show">SHOW PROJECT</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="block-more"> <a href="#" class="button-more">SHOW MORE</a>
+            </div>
+          </div>
+      </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/site.js"></script>
   </body>
 </html>

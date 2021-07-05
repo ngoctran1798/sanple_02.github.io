@@ -1,9 +1,9 @@
-.box-works
+.section-works
   padding: 100px 0
-  .block-title
+  .works-title
     padding-bottom: 100px
     text-align: center
-    h2
+    .title
       font-size: 35px
       letter-spacing: 5px
       color: #3b434c
@@ -13,9 +13,8 @@
       padding-bottom: 30px
       span
         color: #f7600e
-    p
+    .text
       font-family: 'Open Sans', sans-serif
-      font-size: 16px
       font-weight: 400
       margin-bottom: 0
       letter-spacing: 1px
@@ -23,22 +22,22 @@
   .block-work
     padding-bottom: 30px
     padding-left: 15px
-    .work-item
+    .works-item
       position: relative
       .work-img
-        a
-          img
+        .link
+          .image
             width: 100%
       .work-content
         opacity: 0
         position: absolute
         top: 0
         background: #ec6014
-        padding: 80px 0
+        padding: 100px 0
         border-radius: 10px
         transform: translateY(40px)
         transition: all 0.5s ease
-        h3
+        .content-title
           font-size: 25px
           font-family: 'Open Sans', sans-serif
           font-weight: 600
@@ -46,7 +45,7 @@
           margin-bottom: 0
           padding-bottom: 25px
           text-align: center
-        p
+        .content-text
           overflow: hidden
           text-overflow: ellipsis
           line-height: 16px
@@ -64,7 +63,7 @@
         .block-show
           text-align: center
           margin-top: 40px
-          .btn-show
+          .button-show
             padding: 20px 45px
             font-size: 16px
             font-weight: 600
@@ -73,7 +72,8 @@
             background: #f7600e
             color: #fff
             border: 1px solid #fff
-            &::hover
+            text-decoration: none
+            &:hover
               color: #f7600e
               background: #fff
               border: 1px solid #fff
@@ -83,7 +83,7 @@
   .block-more
     text-align: center
     margin-top: 50px
-    .btn-more
+    .button-more
       font-size: 16px
       padding: 20px 50px
       font-family: 'Open Sans', sans-serif
@@ -92,6 +92,7 @@
       border: 1px solid #3b434c
       border-radius: 10px
       transition: all 0.5s ease
+      text-decoration: none
       &:hover
         color: #fff
         background: #f7600e
